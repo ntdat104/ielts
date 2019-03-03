@@ -1,0 +1,257 @@
+@media screen and (min-width: 1024px){
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Times New Roman", Times, serif;
+}
+
+#header_background{
+    background-color: navajowhite;
+    width: 100%;
+}
+
+#header_content{
+    width: 80%;
+    margin: auto;
+}
+
+#header_content h1{
+    float: left;
+}
+
+#header_content h1 a{
+    line-height: 50px;
+    font-weight: normal;
+    color: black;
+    text-decoration: none;
+}
+
+#header_content ul{
+    float: right;
+}
+
+#header_content ul li{
+    display: inline;
+    margin: 0px 10px;
+}
+
+#header_content ul li a{
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    line-height: 50px;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.clear{
+    clear: both;
+}
+
+#nav_content{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: yellowgreen;
+}
+
+#nav_content h1{
+    text-align: center;
+}
+
+#nav_content h1 a{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+#nav_content h2{
+    text-align: center;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+#main_header{
+    width: 100%;
+    background-color: bisque;
+    padding: 10px 0px;
+}
+
+#main_header h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+#main_body_background{
+    width: 100%;
+    background-color: orange;
+    padding: 50px 0px;
+}
+
+#main_body_content{
+    width: 80%;
+    margin: auto;
+}
+
+#text{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+}
+
+#text h1{
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+#footer_background{
+    width: 100%;
+    background-color: lightcoral;
+    padding: 50px 0px;
+}
+
+#footer_content{
+    width: 80%;
+    margin: auto;
+}
+
+#footer_content h1{
+    text-align: center;
+}
+
+}
+
+@media screen and (max-width: 800px){
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    body{
+        font-family: "Times New Roman", Times, serif;
+    }
+    
+    #header_background{
+        background-color: navajowhite;
+        width: 100%;
+    }
+    
+    #header_content{
+        width: 100%;
+    }
+    
+    #header_content h1{
+        text-align: center;
+    }
+    
+    #header_content h1 a{
+        line-height: 50px;
+        font-weight: normal;
+        color: black;
+        text-decoration: none;
+    }
+    
+    #header_content ul{
+        text-align: center;
+    }
+    
+    #header_content ul li{
+        display: inline;
+        margin: 0px 10px;
+    }
+    
+    #header_content ul li a{
+        display: inline-block;
+        text-decoration: none;
+        cursor: pointer;
+        color: black;
+        line-height: 50px;
+        font-weight: normal;
+        font-size: 20px;
+    }
+    
+    .clear{
+        clear: both;
+    }
+    
+    #nav_content{
+        width: 100%;
+        padding: 100px 0px;
+        background-color: yellowgreen;
+    }
+    
+    #nav_content h1{
+        text-align: center;
+    }
+    
+    #nav_content h1 a{
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+        font-size: 100px;
+        font-weight: bold;
+    }
+    
+    #nav_content h2{
+        text-align: center;
+        font-weight: normal;
+        font-size: 30px;
+    }
+    
+    #main_header{
+        width: 100%;
+        background-color: navajowhite;
+        padding: 10px 0px;
+    }
+    
+    #main_header h1{
+        text-align: center;
+        font-size: 50px;
+    }
+    
+    #main_body_background{
+        width: 100%;
+        background-color: orange;
+        padding: 50px 0px;
+    }
+    
+    #main_body_content{
+        width: 80%;
+        margin: auto;
+    }
+    
+    #text{
+        width: 33.33%;
+        float: left;
+        text-align: center;
+    }
+    
+    #text h1{
+        font-weight: normal;
+        margin-bottom: 20px;
+        font-size: 3vw;
+    }
+    
+    #footer_background{
+        width: 100%;
+        background-color: lightcoral;
+        padding: 50px 0px;
+    }
+    
+    #footer_content{
+        width: 80%;
+        margin: auto;
+    }
+    
+    #footer_content h1{
+        text-align: center;
+    }
+
+}
