@@ -10,7 +10,7 @@ body{
 }
 
 #header_background{
-    background-color: navajowhite;
+    background-color: palegoldenrod;
     width: 100%;
 }
 
@@ -79,7 +79,7 @@ body{
 
 #main_header{
     width: 100%;
-    background-color: navajowhite;
+    background-color: palegoldenrod;
     padding: 10px 0px;
 }
 
@@ -90,7 +90,7 @@ body{
 
 #main_body_background{
     width: 100%;
-    background-color: orange;
+    background-color: yellowgreen;
     padding: 50px 0px;
 }
 
@@ -112,7 +112,7 @@ body{
 
 #footer_background{
     width: 100%;
-    background-color: lightcoral;
+    background-color: palegoldenrod;
     padding: 50px 0px;
 }
 
@@ -245,7 +245,7 @@ body{
     
     #footer_background{
         width: 100%;
-        background-color: burlywood;
+        background-color: palegoldenrod;
         padding: 30px 0px;
     }
     
