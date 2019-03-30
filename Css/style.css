@@ -110,6 +110,11 @@ body{
     margin-bottom: 20px;
 }
 
+.source{
+    text-decoration: none;
+    color: blue;
+}
+
 #footer_background{
     width: 100%;
     background-color: palegoldenrod;
@@ -239,8 +244,12 @@ body{
     
     #text h1{
         font-weight: normal;
-        margin-bottom: 20px;
         font-size: 5vw;
+    }
+
+    .source{
+        text-decoration: none;
+        color: blue;
     }
     
     #footer_background{
