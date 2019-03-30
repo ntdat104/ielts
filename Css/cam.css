@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: "Times New Roman", Times, serif;
 }
 
 h2{
@@ -9,5 +10,134 @@ h2{
 
 audio{
     width: 100%;
-    height: 40px;
+}
+
+@media screen and (min-width: 1024px){
+    #header_background{
+        background-color: lightsalmon;
+        width: 100%;
+    }
+    
+    #header_content{
+        width: 80%;
+        margin: auto;
+    }
+    
+    #header_content h1{
+        float: left;
+    }
+    
+    #header_content h1 a{
+        line-height: 50px;
+        font-weight: normal;
+        color: black;
+        text-decoration: none;
+    }
+    
+    #header_content ul{
+        float: right;
+    }
+    
+    #header_content ul li{
+        display: inline;
+        margin: 0px 10px;
+    }
+    
+    #header_content ul li a{
+        display: inline-block;
+        text-decoration: none;
+        cursor: pointer;
+        color: black;
+        line-height: 50px;
+        font-weight: normal;
+        font-size: 20px;
+    }
+    
+    .clear{
+        clear: both;
+    }
+
+    .main{
+        background-color: LightYellow;
+    }
+
+    #footer_background{
+        width: 100%;
+        background-color: lightsalmon;
+        padding: 50px 0px;
+    }
+    
+    #footer_content{
+        width: 80%;
+        margin: auto;
+    }
+    
+    #footer_content h1{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1023px){
+    #header_background{
+        background-color: lightsalmon;
+        width: 100%;
+    }
+    
+    #header_content{
+        width: 100%;
+    }
+    
+    #header_content h1{
+        text-align: center;
+    }
+    
+    #header_content h1 a{
+        line-height: 50px;
+        font-weight: bold;
+        color: black;
+        text-decoration: none;
+    }
+    
+    #header_content ul{
+        text-align: center;
+    }
+    
+    #header_content ul li{
+        display: inline;
+        margin: 0px 5px;
+    }
+    
+    #header_content ul li a{
+        display: inline-block;
+        text-decoration: none;
+        cursor: pointer;
+        color: black;
+        line-height: 50px;
+        font-weight: normal;
+        font-size: 18px;
+    }
+    
+    .clear{
+        clear: both;
+    }
+
+    .main{
+        background-color: LightYellow;
+    }
+
+    #footer_background{
+        width: 100%;
+        background-color: lightsalmon;
+        padding: 30px 0px;
+    }
+    
+    #footer_content{
+        width: 80%;
+        margin: auto;
+    }
+    
+    #footer_content h1{
+        text-align: center;
+        font-size: 25px;
+    }
 }
